@@ -1,26 +1,59 @@
-import React from 'react'
+import React from 'react';
 
 const ProgrammingLanguage = () => {
   return (
     <div className='skills_content reveal'>
-        <h3 className='skills_title'>Programming Language</h3>
-        
-        <div className='skills_box'>
-            <div className='skills_group'>
-            <ul>
-                <li className='skills_name'><i className='bx bx-badge-check'></i>Phython <br/><span> Advanced</span></li>
-                <li className='skills_name'><i className='bx bx-badge-check'></i>C/C++ <br/><span> Advanced</span></li>
-                <li className='skills_name'><i className='bx bx-badge-check'></i>JavaScript <br/><span> Advanced</span></li>
-                <li className='skills_name'><i className='bx bx-badge-check'></i>Matlab <br/><span> Advanced</span></li>
-                <li className='skills_name'><i className='bx bx-badge-check'></i>LATEX <br/><span> Advanced</span></li>
-                <li className='skills_name'><i className='bx bx-badge-check'></i>SQL <br/><span> Intermediate</span></li>
-                <li className='skills_name'><i className='bx bx-badge-check'></i>Java <br/><span> Intermediate</span></li>
-            </ul>
-            
-            </div>  
+      <h3 className='skills_title'>Programming Language</h3>
+      <div className='skills_box'>
+        <div className='skills_group'>
+          <ul className='skills_row'>
+            <li className='skills_name'>
+              <span className='badge'>
+                <i className='bx bx-badge-check'></i> Python
+                <span className='level'>Advanced</span>
+              </span>
+            </li>
+            <li className='skills_name'>
+              <span className='badge'>
+                <i className='bx bx-badge-check'></i> C/C++
+                <span className='level'>Advanced</span>
+              </span>
+            </li>
+            <li className='skills_name'>
+              <span className='badge'>
+                <i className='bx bx-badge-check'></i> JavaScript
+                <span className='level'>Advanced</span>
+              </span>
+            </li>
+            <li className='skills_name'>
+              <span className='badge'>
+                <i className='bx bx-badge-check'></i> Matlab
+                <span className='level'>Advanced</span>
+              </span>
+            </li>
+            <li className='skills_name'>
+              <span className='badge'>
+                <i className='bx bx-badge-check'></i> LATEX
+                <span className='level'>Advanced</span>
+              </span>
+            </li>
+            <li className='skills_name'>
+              <span className='badge'>
+                <i className='bx bx-badge-check'></i> SQL
+                <span className='level'>Intermediate</span>
+              </span>
+            </li>
+            <li className='skills_name'>
+              <span className='badge'>
+                <i className='bx bx-badge-check'></i> Java
+                <span className='level'>Intermediate</span>
+              </span>
+            </li>
+          </ul>
         </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default ProgrammingLanguage
+export default ProgrammingLanguage;

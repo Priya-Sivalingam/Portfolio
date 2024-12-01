@@ -1,27 +1,41 @@
-import React from 'react'
+import React from 'react';
 
-const webFrameworks = () => {
+const WebFrameworks = () => {
   return (
     <div className='skills_content reveal'>
-    <h3 className='skills_title'>Web/Mobile App Frameworks</h3>
-    
-    <div className='skills_box'>
-    <div className='skills_group'>
-            <ul>
-                <li className='skills_name'><i className='bx bx-badge-check'></i>React Native <br/><span> Advanced</span></li>
-                <li className='skills_name'><i className='bx bx-badge-check'></i>React<br/><span> Advanced</span></li>
-                <li className='skills_name'><i className='bx bx-badge-check'></i>Angular<br/><span> Advanced</span></li>
-                <li className='skills_name'><i className='bx bx-badge-check'></i>Dijango<br/><span> Intermediate</span></li>
-            </ul>
-            </div> 
-        
-        
-
-        
-        
+      <h3 className='skills_title'>Web/Mobile App Frameworks</h3>
+      <div className='skills_box'>
+        <div className='skills_group'>
+          <ul className='skills_row'>
+            <li className='skills_name'>
+              <span className='badge'>
+                <i className='bx bx-badge-check'></i> React Native
+                <span className='level'>Advanced</span>
+              </span>
+            </li>
+            <li className='skills_name'>
+              <span className='badge'>
+                <i className='bx bx-badge-check'></i> React
+                <span className='level'>Advanced</span>
+              </span>
+            </li>
+            <li className='skills_name'>
+              <span className='badge'>
+                <i className='bx bx-badge-check'></i> Angular
+                <span className='level'>Advanced</span>
+              </span>
+            </li>
+            <li className='skills_name'>
+              <span className='badge'>
+                <i className='bx bx-badge-check'></i> Django
+                <span className='level'>Intermediate</span>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
-</div>
-  )
-}
+  );
+};
 
-export default webFrameworks
+export default WebFrameworks;

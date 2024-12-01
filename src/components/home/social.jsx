@@ -15,6 +15,11 @@ const social = () => {
             <i class="uil uil-envelope-check"></i>
         </a>
 
+        <a href="https://www.instagram.com/manimohan_04/" className="home_social-icon" target="_blank" rel="noopener noreferrer">
+  <i className="uil uil-instagram"></i>
+</a>
+
+
        
 
     </div>
