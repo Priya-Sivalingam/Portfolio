@@ -1,120 +1,151 @@
-.project_filters{
+.project_filters {
     display: flex;
     justify-content: center;
     align-items: center;
     column-gap: 0.75rem;
     margin-bottom: var(--mb-2);
 }
-.project_item{
+
+.project_item {
     cursor: pointer;
     color: var(--title-color);
     padding: 0.25rem 0.75rem;
     font-weight: var(--font-medium);
     border-radius: 0.5rem;
     text-transform: capitalize;
+    transition: all 0.3s ease;
 }
-.project_item:hover{
+
+.project_item:hover {
     background-color: var(--title-color);
     color: beige;
+    transform: scale(1.05); /* Slight zoom effect */
 }
 
-.project_container{
-    grid-template-columns: repeat(2,max-content);
+.project_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Dynamic grid */
     gap: 3rem;
     justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    transition: all 0.3s ease;
 }
 
-.project_card{
+.project_card {
     background-color: var(--container-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1.25rem;
     border-radius: 1rem;
-    
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     opacity: 0;
-    animation: sideShow .5s ease forwards;
+    animation: sideShow 0.5s ease forwards;
 }
 
-.project_img{
-    width: 295px;
+.project_card:hover {
+    transform: translateY(-10px); /* Elevate card on hover */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); /* Stronger shadow on hover */
+}
+
+.project_img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
     border-radius: 1rem;
-    margin-bottom: var(--mb-1);
-
+    transition: transform 0.3s ease;
 }
 
-.project_title{
+.project_card:hover .project_img {
+    transform: scale(1.05); /* Zoom effect on image */
+}
+
+.project_title {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
-    margin-bottom: var(--mb-0-5);
+    margin: 1rem 0;
+    transition: color 0.3s ease;
 }
 
-.project_button{
+.project_card:hover .project_title {
+    color: var(--title-color); /* Change color on card hover */
+}
+
+.project_button {
     color: var(--text-color);
     font-size: var(--small-font-size);
     align-items: center;
     column-gap: 0.25rem;
+    transition: color 0.3s ease;
 }
 
-.project_button-icon{
+.project_button:hover {
+    color: var(--title-color);
+}
+
+.project_button-icon {
     font-size: 1rem;
-    transition: 0.4s;
+    transition: transform 0.3s ease;
 }
 
-.project_button:hover, 
-.project_button-icon{
+.project_button:hover .project_button-icon {
     transform: translateX(0.25rem);
 }
 
-@media screen and (max-width:992px){
-    .project_container{
-        gap: 1.25rem;
+@media screen and (max-width: 992px) {
+    .project_container {
+        gap: 2rem;
     }
 
-    .project_card{
+    .project_card {
         padding: 1rem;
     }
-   
 
-    .project_title{
+    .project_title {
         margin-bottom: 0.25rem;
     }
-    
 }
 
-@media screen and (max-width:768px){
-    .project_container{
+@media screen and (max-width: 768px) {
+    .project_container {
         grid-template-columns: 1fr;
     }
-    
 }
 
-@media screen and (max-width:576px){
-    .project_container{
-       grid-template-columns: 1fr;
+@media screen and (max-width: 576px) {
+    .project_container {
+        grid-template-columns: 1fr;
     }
-    .project_img{
+
+    .project_img {
         width: 100%;
     }
-    .section{
+
+    .section {
         height: 100%;
     }
 }
-/* and should be space */
-@media screen and (max-width:350px){
-    .project_item{
-       font-size: var(--small-font-size);
+
+@media screen and (max-width: 350px) {
+    .project_item {
+        font-size: var(--small-font-size);
     }
-    .project_filters{
+
+    .project_filters {
         column-gap: 0.15rem;
     }
 }
 
+/* Keyframe for animation */
 @keyframes sideShow {
-    0%{
-        transform: translateX(-100px);
+    0% {
+        transform: translateY(100px);
         opacity: 0;
     }
-    100%{
-        transform: translateX(0);
+    100% {
+        transform: translateY(0);
         opacity: 1;
     }
 }

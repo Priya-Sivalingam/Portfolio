@@ -1,16 +1,25 @@
-import React from 'react'
+import React from 'react';
+import './Data.css'; // Import the CSS file
 
 const Data = () => {
+  const name = "Manimohan";
+
   return (
     <div className='home_data'>
         <h3 className='home_subtitle'>Hello, I'm</h3>
-        <h1 className='home_title'>Thiriloganathan <span>Manimohan</span></h1>
+        <h1 className='home_title'>
+            Thiriloganathan <span className="hover-effect">
+              {name.split("").map((letter, index) => (
+                <span key={index} className="letter">{letter}</span>
+              ))}
+            </span>
+        </h1>
         <h3 className='home_subtitle'>Undergraduate | Department of ENTC at University of Moratuwa</h3>
 
         <a href='#contact' className='button button--flex'>
             Contact Me
             <svg
-                  class="button__icon"
+                  className="button__icon"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
@@ -28,7 +37,7 @@ const Data = () => {
                 </svg>
         </a>
     </div>
-  )
+  );
 }
 
-export default Data
+export default Data;
