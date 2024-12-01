@@ -8,11 +8,12 @@ const Data = () => {
     <div className='home_data'>
         <h3 className='home_subtitle'>Hello, I'm</h3>
         <h1 className='home_title'>
-            Thiriloganathan <span className="hover-effect">
+           <span className="hover-effect">
               {name.split("").map((letter, index) => (
                 <span key={index} className="letter">{letter}</span>
               ))}
             </span>
+            Thiriloganathan
         </h1>
         <h3 className='home_subtitle'>Undergraduate | Department of ENTC at University of Moratuwa</h3>
 

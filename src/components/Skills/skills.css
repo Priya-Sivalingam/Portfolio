@@ -28,11 +28,11 @@
     display: inline-flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px 20px;
-    font-size: 1rem;
+    padding: 5px 10px;
+    font-size: 0.5rem;
     font-weight: bold;
     color: #fff;
-    background: linear-gradient(145deg, #00796b, #004d40); /* Gradient effect */
+    background: linear-gradient(145deg, #b0b5b4, #dce1e0); /* Gradient effect */
     border-radius: 50px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;

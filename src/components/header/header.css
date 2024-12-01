@@ -18,21 +18,21 @@ nav{
     
 }
 .nav_logo {
-    font-family: 'Dancing Script', cursive; /* Elegant, handwritten-style font */
-    font-size: 4rem; /* Large font size for emphasis */
-    font-weight: 700; /* Bold text for prominence */
-    color: var(--title-color); /* Color from root variables */
-    text-decoration: none; /* Remove underline */
-    letter-spacing: 0.05rem; /* Slight space between letters for elegance */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
-    display: inline-block; /* Ensures it's aligned with other nav items */
-    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    font-family: 'Dancing Script', cursive; 
+    font-size: 3rem; 
+    font-weight: 700; 
+    color: var(--title-color); 
+    text-decoration: none; 
+    letter-spacing: 0.05rem; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+    display: inline-block; 
+    transition: all 0.3s ease; 
   }
   
   .nav_logo:hover {
-    color: var(--container-color); /* Change text color on hover */
-    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4); /* Stronger shadow on hover */
-    transform: scale(1.1); /* Slight enlargement on hover */
+    color: var(--container-color);
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4); 
+    transform: scale(1.1); 
   }
   
 .nav_toggle{
@@ -115,6 +115,10 @@ nav{
     .nav_close,
     .nav_toggle{
         display: block;
+    }
+
+    .nav_logo {
+        display: none;
     }
 
 }

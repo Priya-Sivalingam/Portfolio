@@ -2,7 +2,8 @@ import React from 'react';
 import './skills.css';
 import ProLanguage from './ProgrammingLanguage';
 import MLFramework from './MachineLeaningFrameworks';
-import WebFramework from './webFrameworks';
+import Frameworks from './Frameworks';
+import Design from './DesigningTools'
 
 const Skills = () => {
   return (
@@ -11,8 +12,9 @@ const Skills = () => {
         <span className='section_subtittle'>My technical Skill</span>
         <div className='skills_container container grid'>
             <ProLanguage/>
+            <Design/>
             <MLFramework/>
-            <WebFramework/>
+            <Frameworks/>
         </div>
     </section>
   )
