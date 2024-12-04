@@ -180,7 +180,7 @@ img{
 
 /* Shiny and 3D Text Effect */
 .loading-text {
-  font-size: 1.5rem; /* Adjusted font size */
+  font-size: 1rem; /* Adjusted font size */
   font-weight: 400;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   letter-spacing: 8px; /* Creates a gap between the letters */
@@ -204,13 +204,13 @@ img{
 /* Shiny Gradient Animation */
 @keyframes shine {
   0% {
-    opacity: 0.5;
+    opacity: 0;
   }
   50% {
-    opacity: 1;
+    opacity: 2;
   }
   100% {
-    opacity: 0.5;
+    opacity: 0;
   }
 }
 

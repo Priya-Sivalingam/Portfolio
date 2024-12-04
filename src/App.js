@@ -25,7 +25,7 @@ const App = () => {
       <div className="loading-container">
         <div className="loading-text">
           {text.split("").map((letter, index) => (
-            <span key={index} style={{ animationDelay: `${index * 0.1}s` }}>
+            <span key={index} style={{ animationDelay: `${index * 0.2}s` }}>
               {letter}
             </span>
           ))}
