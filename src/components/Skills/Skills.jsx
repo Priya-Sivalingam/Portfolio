@@ -9,7 +9,7 @@ const Skills = () => {
   return (
     <section className='skills section reveal' id='skills'>
         <h2 className='section_title'>Skills</h2>
-        <span className='section_subtittle'>My technical Skill</span>
+        <span className='section_subtittle'>My technical Skills</span>
         <div className='skills_container container grid'>
             <ProLanguage/>
             <Design/>

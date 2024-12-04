@@ -93,3 +93,10 @@
     }
   }
   
+  @media screen and (max-width: 576px){
+    .timeline-date
+    .timeline-title
+    .timeline-text{
+      font-size: 1rem;
+    }
+  }

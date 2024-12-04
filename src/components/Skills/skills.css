@@ -1,18 +1,70 @@
 .skills_content {
     text-align: center;
     padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
   }
   
   .skills_title {
     font-size: 1.5rem;
     margin-bottom: 20px;
     color: #333;
+    text-align: center;
+  font-weight: bold;
   }
+
+  .categories_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .skills_category {
+    background-color: #e7e7e7;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skills_subtitle {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .tools_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 15px;
+  }
+  
+  .skills_name {
+    text-align: center;
+  }
+ 
+  
+  .badge img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 8px;
+  }
+  
+  .skills_column {
+    padding: 10px;
+}
   
   .skills_box {
     display: flex;
     justify-content: center;
+    align-items: center; /* Space between columns */
+  }
+  .skills_box_design {
+    display: grid;
+    justify-content: center;
     align-items: center;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 30px; /* Space between columns */
   }
   
   .skills_row {
@@ -22,6 +74,7 @@
     list-style: none; /* Remove list bullets */
     padding: 0;
     margin: 0;
+    justify-content: center; /* Center badges */
   }
   
   .badge {
@@ -46,9 +99,10 @@
   }
   
   .level {
-    font-size: 0.75rem;
+    font-size: 0.5rem;
     font-weight: normal;
-    margin-top: 5px;
+    margin-top: 3px;
+    
   }
   
   @keyframes float {
@@ -59,4 +113,3 @@
       transform: translateY(-10px);
     }
   }
-  

@@ -7,6 +7,7 @@
     background-color: var(--body-color);
     font-weight: bold;
     font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 nav{
@@ -19,7 +20,7 @@ nav{
 }
 .nav_logo {
     font-family: 'Dancing Script', cursive; 
-    font-size: 3rem; 
+    font-size: 2.5rem; 
     font-weight: 700; 
     color: var(--title-color); 
     text-decoration: none; 
@@ -133,3 +134,20 @@ nav{
   }
 }
 
+.whatsapp-icon {
+    position: fixed;
+    bottom: 50px; /* Adjust distance from the bottom */
+    right: 20px; /* Adjust distance from the right */
+    z-index: 1000; /* Ensure it's above other content */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions for transform and shadow */
+  }
+  
+  .whatsapp-icon img {
+    width: 50px; /* Set the width */
+    height: 50px; /* Set the height */
+    object-fit: contain; /* Ensures the icon maintains aspect ratio without stretching */
+    transition: transform 0.2s ease-in-out, border-radius 0.3s ease; /* Smooth transition for transform and border-radius */
+  }
+
+  
+  

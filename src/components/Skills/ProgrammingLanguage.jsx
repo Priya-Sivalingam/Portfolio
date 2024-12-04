@@ -4,7 +4,7 @@ import React from 'react';
 const ProgrammingLanguage = () => {
   return (
     <div className="skills_content reveal">
-      <h3 className="skills_title">Programming Language</h3>
+      <h3 className="skills_title">Programming Languages</h3>
       <div className="skills_box">
         <div className="skills_group">
           <ul className="skills_row">

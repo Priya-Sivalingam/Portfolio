@@ -166,22 +166,83 @@ img{
   opacity: 1;
 }
 
-@media screen and (max-width: 992px){
-  .container{
-    margin-left: var(--mb-1-5);
-    margin-right: var(--mb-1-5);
-  }
-
-  .button{
-    padding: 1em 1rem;
-
-  }
-  .button_icon{
-    width: 22px;
-    height: 22px;
-  }
-
+/* Loading Container */
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  font-family: 'Times New Roman', Times, serif;
 }
+
+/* Shiny and 3D Text Effect */
+.loading-text {
+  font-size: 1.5rem; /* Adjusted font size */
+  font-weight: 400;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  letter-spacing: 8px; /* Creates a gap between the letters */
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  display: flex;
+}
+
+.loading-text span {
+  background: linear-gradient(90deg, #a7a5ae, #212122, #6b7375, #46474d, #dee4e3);
+  background-size: 400% 400%;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: shine 3s linear infinite, colorChange 6s ease-in-out infinite, letterPopUp 1.5s ease-in-out forwards;
+  text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5), 0px 8px 13px rgba(0, 0, 0, 0.3); /* 3D effect */
+  opacity: 0; /* Start with invisible letters */
+}
+
+/* Shiny Gradient Animation */
+@keyframes shine {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+/* Color Change Animation */
+@keyframes colorChange {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Letter Pop Up Animation */
+@keyframes letterPopUp {
+  0% {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 
 @media screen and (max-width: 768px){
   body{
