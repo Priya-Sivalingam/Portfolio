@@ -21,6 +21,8 @@ import Project20 from "../../assets/photos/project20.jpeg";
 import Project21 from "../../assets/photos/project21.webp";
 import Project22 from "../../assets/photos/project22.webp";
 import Project23 from "../../assets/photos/project23.jpg";
+import Project24 from "../../assets/photos/project24.jpeg";
+import Project25 from "../../assets/photos/project25.jpg";
 
 export const projectsData = [
   {
@@ -125,7 +127,7 @@ export const projectsData = [
     image: Project13,
     title: "LED-Flash",
     category: "Electronics & Telecommunication",
-    subcategory: "Electronics Projects",
+    subcategory: "Electronics",
     Github: "https://github.com/Manimohan05/LED-Flash.git",
   },
   {
@@ -133,7 +135,7 @@ export const projectsData = [
     image: Project14,
     title: "ECG-Heart-Monitor-Lab-project",
     category: "Electronics & Telecommunication",
-    subcategory: "Electronics Projects",
+    subcategory: "Electronics",
     Github: "https://github.com/Manimohan05/ECG-Heart-Monitor-Lab-project.git",
   },
   {
@@ -141,7 +143,7 @@ export const projectsData = [
     image: Project15,
     title: "Linear-Power-supply",
     category: "Electronics & Telecommunication",
-    subcategory: "Electronics Projects",
+    subcategory: "Electronics",
     Github: "https://github.com/Manimohan05/Linear-Power-supply.git",
   },
   {
@@ -149,7 +151,7 @@ export const projectsData = [
     image: Project16,
     title: "Water-Level-Detector",
     category: "Electronics & Telecommunication",
-    subcategory: "Electronics Projects",
+    subcategory: "Electronics",
     Github: "https://github.com/Manimohan05/Engineering-Design-project_Water-Level-Detector.git",
   },
   {
@@ -157,7 +159,7 @@ export const projectsData = [
     image: Project17,
     title: "MINI-UPS",
     category: "Electronics & Telecommunication",
-    subcategory: "Electronics Projects",
+    subcategory: "Electronics",
     Github: "https://github.com/Manimohan05/MINI-UPS.git",
   },
   {
@@ -165,21 +167,21 @@ export const projectsData = [
     image: Project18,
     title: "Autonomus_Robot-Design",
     category: "Electronics & Telecommunication",
-    subcategory: "Robotics and Autonomus Systems",
+    subcategory: "Robotics and Autonomus",
     Github: "https://github.com/Manimohan05/Robot-Design-and-Competition.git",
   },
   {
     id: 19,
-    image: Project19,
+    image: Project19, 
     title: "Autonomous_Robot_Design_SLRC",
     category: "Electronics & Telecommunication",
-    subcategory: "Robotics and Autonomus Systems",
+    subcategory: "Robotics and Autonomus",
     Github: "https://github.com/Manimohan05/Sri-Lankan-Robotics-Challenge-SLRC--2023.git",
   },
   {
     id: 20,
     image: Project20,
-    title: "Design-of-Local-Area-Network ",
+    title: "Design-of-Local-Area-Network",
     category: "Electronics & Telecommunication",
     subcategory: "Telecommunications ",
     Github: "https://github.com/Manimohan05/Design-of-Local-Area-Network-Group-Project.git",
@@ -207,6 +209,22 @@ export const projectsData = [
     category: "Electronics & Telecommunication",
     subcategory: "FPGA Design & Simulation",
     Github: "https://github.com/Manimohan05/FPGA-Mini-projects-UART-System-pool-.git",
+  },
+  {
+    id: 24,
+    image: Project24,
+    title: "Filter-design",
+    category: "Electronics & Telecommunication",
+    subcategory: "Signal & Systems",
+    Github: "https://github.com/Manimohan05/Filter-design.git",
+  },
+  {
+    id: 25,
+    image: Project25,
+    title: "Digital-Signal-Processing-Assignments",
+    category: "Electronics & Telecommunication",
+    subcategory: "Signal & Systems",
+    Github: "https://github.com/Manimohan05/EN3551---Digital-Signal-Processing-Assignments.git",
   },
 ];
 
