@@ -1,56 +1,64 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import { FaHome, FaUser, FaBars, FaTimes } from 'react-icons/fa';
+import { IoIosContact } from "react-icons/io";
+import { GrProjects } from "react-icons/gr";
+import { FaGraduationCap } from "react-icons/fa6";
+import { GiSkills } from "react-icons/gi";
 import './header.css';
 
 const Header = () => {
-  const[Toggle, showMenu] = useState(false);
+  const [Toggle, showMenu] = useState(false);
+
   return (
-    <header className='header'>
-      <nav className='nav container'>
-        <a href='index.html' className='nav_logo'>M.</a>
+    <header className="header">
+      <nav className="nav container">
+        <a href="index.html" className="nav_logo">M.</a>
 
         <div className={Toggle ? "nav_menu show-menu" : "nav_menu"}>
-          <ul className='nav_list grid'>
-              <li className='nav_item'>
-                  <a href='#home' className='nav_link active-link' >
-                      <i className='uil uil-estate nav_icon'></i> Home
-                  </a>
-              </li>
+          <ul className="nav_list grid">
+            <li className="nav_item">
+              <a href="#home" className="nav_link active-link">
+                <FaHome className="nav_icon" /> Home
+              </a>
+            </li>
 
-              <li className='nav_item'>
-                  <a href='#about' className='nav_link' >
-                      <i className='uil uil-user nav_icon'></i> About
-                  </a>
-              </li>
+            <li className="nav_item">
+              <a href="#about" className="nav_link">
+                <FaUser className="nav_icon" /> About
+              </a>
+            </li>
+            <li className="nav_item">
+              <a href="#skills" className="nav_link">
+                <GiSkills className="nav_icon" /> Skills
+              </a>
+            </li>
 
-              <li className='nav_item'>
-                  <a href='#skills' className='nav_link' >
-                      <i className='uil uil-file-alt nav_icon'></i> Skills
-                  </a>
-              </li>
+            <li className="nav_item">
+              <a href="#education" className="nav_link">
+                <FaGraduationCap className="nav_icon" /> Education
+              </a>
+            </li>
 
-              <li className='nav_item'>
-                  <a href='#projects' className='nav_link' >
-                      <i className='uil uil-scenery nav_icon'></i> Projects
-                  </a>
-              </li>
+            <li className="nav_item">
+              <a href="#projects" className="nav_link">
+                <GrProjects className="nav_icon" /> Projects
+              </a>
+            </li>
 
-              <li className='nav_item'>
-                  <a href='#contact' className='nav_link' >
-                      <i className='uil uil-message nav_icon'></i> Contact
-                  </a>
-              </li>
+            <li className="nav_item">
+              <a href="#contact" className="nav_link">
+                <IoIosContact className="nav_icon" /> Contact
+              </a>
+            </li>
           </ul>
 
-          <i class="uil uil-times nav_close" onClick={()=>showMenu(!Toggle)}></i>
+          <FaTimes className="nav_close" onClick={() => showMenu(!Toggle)} />
         </div>
 
-        <i className='uil-list-ul nav_toggle' onClick={()=>showMenu(!Toggle)}></i>
-
+        <FaBars className="nav_toggle" onClick={() => showMenu(!Toggle)} />
       </nav>
     </header>
-    
-  
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

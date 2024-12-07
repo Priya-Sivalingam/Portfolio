@@ -31,7 +31,7 @@
 }
 
 .home_title span{
-    color: rgb(34, 14, 208);
+    color: rgb(0, 0, 0);
 }
 .home_hand{
     width: 38px;
@@ -76,7 +76,9 @@
     animation: profile_animate 4s ease-in-out infinite 1s;
     
 }
-
+.button{
+    margin-top: 50px;
+}
 @keyframes profile_animate{
     0%{
         border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
