@@ -36,7 +36,7 @@ export const projectsData = [
   {
     id: 2,
     image: Project2,
-    title: "Diabetes-Prediction",
+    title: "Diabetes Prediction",
     category: "AI & CV",
     subcategory: "All",
     Github: "https://github.com/Manimohan05/Diabetes-Prediction.git",
@@ -76,7 +76,7 @@ export const projectsData = [
   {
     id: 7,
     image: Project7,
-    title: "Image-processing ",
+    title: "Image processing ",
     category: "AI & CV",
     subcategory: "All",
     Github: "https://github.com/Manimohan05/EN3160---Image-processing-Works--Assignments-Codes-.git",
@@ -84,7 +84,7 @@ export const projectsData = [
   {
     id: 8,
     image: Project8,
-    title: "Pattern-Recognitions",
+    title: "Pattern Recognitions",
     category: "AI & CV",
     subcategory: "All",
     Github: "https://github.com/Manimohan05/EN3150---Pattern-Recognitions-Works-Assignments-Homeworks-.git",
@@ -93,7 +93,7 @@ export const projectsData = [
   {
     id: 9,
     image: Project9,
-    title: "Attendance-app",
+    title: "Attendance app",
     category: "Software",
     subcategory: "All",
     Github: "https://github.com/Manimohan05/attendance-app.git",
@@ -101,7 +101,7 @@ export const projectsData = [
   {
     id: 10,
     image: Project10,
-    title: "Chat-Application",
+    title: "Chat Application",
     category: "Software",
     subcategory: "All",
     Github: "https://github.com/Manimohan05/Chat-Application.git",
@@ -117,7 +117,7 @@ export const projectsData = [
   {
     id: 12,
     image: Project12,
-    title: "Flower-Exchange",
+    title: "Flower Exchange",
     category: "Software",
     subcategory: "All",
     Github: "https://github.com/Manimohan05/Flower-Exchange.git",
@@ -125,7 +125,7 @@ export const projectsData = [
   {
     id: 13,
     image: Project13,
-    title: "LED-Flash",
+    title: "LED Flash",
     category: "Electronics & Telecommunication",
     subcategory: "Electronics",
     Github: "https://github.com/Manimohan05/LED-Flash.git",
@@ -133,7 +133,7 @@ export const projectsData = [
   {
     id: 14,
     image: Project14,
-    title: "ECG-Heart-Monitor-Lab-project",
+    title: "ECG Heart Monitor Lab project",
     category: "Electronics & Telecommunication",
     subcategory: "Electronics",
     Github: "https://github.com/Manimohan05/ECG-Heart-Monitor-Lab-project.git",
@@ -141,7 +141,7 @@ export const projectsData = [
   {
     id: 15,
     image: Project15,
-    title: "Linear-Power-supply",
+    title: "Linear Power supply",
     category: "Electronics & Telecommunication",
     subcategory: "Electronics",
     Github: "https://github.com/Manimohan05/Linear-Power-supply.git",
@@ -149,7 +149,7 @@ export const projectsData = [
   {
     id: 16,
     image: Project16,
-    title: "Water-Level-Detector",
+    title: "Water Level Detector",
     category: "Electronics & Telecommunication",
     subcategory: "Electronics",
     Github: "https://github.com/Manimohan05/Engineering-Design-project_Water-Level-Detector.git",
@@ -157,7 +157,7 @@ export const projectsData = [
   {
     id: 17,
     image: Project17,
-    title: "MINI-UPS",
+    title: "MINI UPS",
     category: "Electronics & Telecommunication",
     subcategory: "Electronics",
     Github: "https://github.com/Manimohan05/MINI-UPS.git",
@@ -165,7 +165,7 @@ export const projectsData = [
   {
     id: 18,
     image: Project18,
-    title: "Autonomus_Robot-Design",
+    title: "Autonomus Robot Design",
     category: "Electronics & Telecommunication",
     subcategory: "Robotics and Autonomus",
     Github: "https://github.com/Manimohan05/Robot-Design-and-Competition.git",
@@ -173,7 +173,7 @@ export const projectsData = [
   {
     id: 19,
     image: Project19, 
-    title: "Autonomous_Robot_Design_SLRC",
+    title: "Autonomous Robot Design SLRC",
     category: "Electronics & Telecommunication",
     subcategory: "Robotics and Autonomus",
     Github: "https://github.com/Manimohan05/Sri-Lankan-Robotics-Challenge-SLRC--2023.git",
@@ -181,7 +181,7 @@ export const projectsData = [
   {
     id: 20,
     image: Project20,
-    title: "Design-of-Local-Area-Network",
+    title: "Design of Local Area Network",
     category: "Electronics & Telecommunication",
     subcategory: "Telecommunications ",
     Github: "https://github.com/Manimohan05/Design-of-Local-Area-Network-Group-Project.git",
@@ -189,7 +189,7 @@ export const projectsData = [
   {
     id: 21,
     image: Project21,
-    title: "System-verilog-Max-pool",
+    title: "System verilog Max pool",
     category: "Electronics & Telecommunication",
     subcategory: "FPGA Design & Simulation",
     Github: "https://github.com/Manimohan05/System-verilog-Max-pool.git",
@@ -197,7 +197,7 @@ export const projectsData = [
   {
     id: 22,
     image: Project22,
-    title: "Processor-design-ISA-Design",
+    title: "Processor design ISA Design",
     category: "Electronics & Telecommunication",
     subcategory: "FPGA Design & Simulation",
     Github: "https://github.com/Manimohan05/Processor-design-ISA-Design-_Group.git",
@@ -205,7 +205,7 @@ export const projectsData = [
   {
     id: 23,
     image: Project23,
-    title: "FPGA-UART-System-pool",
+    title: "FPGA UART System pool",
     category: "Electronics & Telecommunication",
     subcategory: "FPGA Design & Simulation",
     Github: "https://github.com/Manimohan05/FPGA-Mini-projects-UART-System-pool-.git",
@@ -213,7 +213,7 @@ export const projectsData = [
   {
     id: 24,
     image: Project24,
-    title: "Filter-design",
+    title: "Filter design",
     category: "Electronics & Telecommunication",
     subcategory: "Signal & Systems",
     Github: "https://github.com/Manimohan05/Filter-design.git",
@@ -221,7 +221,7 @@ export const projectsData = [
   {
     id: 25,
     image: Project25,
-    title: "Digital-Signal-Processing-Assignments",
+    title: "Digital Signal Processing Assignments",
     category: "Electronics & Telecommunication",
     subcategory: "Signal & Systems",
     Github: "https://github.com/Manimohan05/EN3551---Digital-Signal-Processing-Assignments.git",

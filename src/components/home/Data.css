@@ -1,20 +1,9 @@
 .home_title .hover-effect {
     display: inline-block;
   }
-  /* Stroke effect for 'Thiriloganathan' */
-  .stroke-text {
-    color: black;
-    font-size: 3rem; /* Adjust size for desired scale */
-    font-weight:600;
-    font-family: 'Times New Roman', Times, serif;
-    -webkit-text-stroke-color: black; /* Stroke color and width */
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke-width: 1px;    text-transform: uppercase;
-    text-align: center;
-    display:flex;
-}
   
   .home_title .letter {
+    color:rgb(7, 7, 224);
     display: inline-block;
     opacity: 0; 
     animation: typing 1.5s steps(1) forwards;
@@ -60,15 +49,3 @@
       opacity: 0;  /* Letter becomes invisible again */
     }
   }
-
-  @media screen and (max-width:567px){
-    
-
-    .stroke-text{
-      font-size: 2rem;
-    }
-    .hover-effect{
-      font-size: 2rem;
-    }
-  }
-  

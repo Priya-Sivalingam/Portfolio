@@ -12,8 +12,6 @@
     row-gap: 1rem;
 }
 
-
-
 .home_social-icon{
     font-size: 1rem;
     color: var(--title-color-dark);
@@ -28,6 +26,7 @@
 .home_title{
     font-size: var(--big-font-size);
     margin-bottom: var(--mb-0-20);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .home_title span{
@@ -42,8 +41,8 @@
 .home_subtitle{
     position: relative;
     font-size: var(--h3-font-size);
-    padding-right: 5.4rem;
-    font-weight: var(--font-normal);
+    padding-right: 5rem;
+    font-weight:500;
     margin-bottom: var(--mb-1);
     
 }
@@ -58,6 +57,7 @@
     top: 1rem;
 }
 .home_data{
+    margin-top: 50px;
     opacity: 0;
     animation: LeftForm .5s ease forwards;
 }
@@ -77,7 +77,7 @@
     
 }
 .button{
-    margin-top: 50px;
+    margin-top: 20px;
 }
 @keyframes profile_animate{
     0%{
@@ -117,6 +117,7 @@
     }
 }
 @media screen and (max-width: 992px){
+
     .home_content{
         grid-template-columns: 100px repeat(2,1fr);
         column-gap: 1.25rem;
@@ -148,8 +149,9 @@
   
   @media screen and (max-width: 768px){
     .home_content{
-        grid-template-columns: 0.5fr 3fr;
+        grid-template-columns: 0.8fr 3fr;
         padding-top:3.5rem ;
+        margin-left: 20px;
     }
 
     .home_img{

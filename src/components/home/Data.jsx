@@ -13,7 +13,7 @@ const Data = () => {
                 <span key={index} className="letter">{letter}</span>
               ))}
             </span>
-            <span  className="stroke-text">Thiriloganathan</span>
+            <span className='second'>Thiriloganathan</span>
         </h1>
         <h3 className='home_subtitle'>Undergraduate | Department of ENTC at University of Moratuwa</h3>
 
