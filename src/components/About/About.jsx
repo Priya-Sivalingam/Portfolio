@@ -11,7 +11,7 @@ const About = () => {
         <h3 className='section_subtittle'>My introduction</h3>
 
         <div className='about_container container grid '>
-            <img src={AboutImg} alt='An example of our product"' className='about_img' />
+            <img src={AboutImg} alt='Manimohan' className='about_img' />
             <div className='about_data'>
 
                 <p className='about_description'>
