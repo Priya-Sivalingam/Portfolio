@@ -202,35 +202,9 @@ img{
   background-clip: text;
   -webkit-background-clip: text;
   animation: shine 3s linear infinite, colorChange 6s ease-in-out infinite, letterPopUp 1.5s ease-in-out forwards;
-  text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5), 0px 8px 13px rgba(0, 0, 0, 0.3); /* 3D effect */
-  opacity: 0; /* Start with invisible letters */
+  opacity: 0; 
 }
 
-/* Shiny Gradient Animation */
-@keyframes shine {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 2;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-/* Color Change Animation */
-@keyframes colorChange {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
 
 /* Letter Pop Up Animation */
 @keyframes letterPopUp {
