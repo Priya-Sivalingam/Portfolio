@@ -15,7 +15,7 @@ const About = () => {
             <div className='about_data'>
 
                 <p className='about_description'>
-                I’m a highly motivated, confident, and self-directed second-year undergraduate. I have interests in Machine
+                I’m a highly motivated, confident, and self-directed Final-year undergraduate. I have interests in Machine
 Learning & Deep Learning, Electronics & telecommunications, Robotics & Automation, Web & App
 Development, UI/UX Designs, and Data science.  I can gain and enhance my knowledge and skills while being productive and giving my best to the
 employer. 
@@ -23,7 +23,7 @@ employer.
 
 
                 </p>
-                <a download='' href={CV} className='button button-flex'>Download CV
+                <a download='' href={CV} className='button button-flex'>View My Resume
 <svg
                 class="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
